@@ -5,6 +5,11 @@ import lombok.Data;
 import javax.persistence.*;
 import java.util.Date;
 
+/*
+
+deneme etabında, varlık "primary key" int employeeID olarak başlandı, devamında String TCKN olarak değiştirildi.
+ */
+
 @Data
 @Table(name = "EMPLOYEES")
 @Entity
